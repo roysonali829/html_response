@@ -1,0 +1,40 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML TABLES</title>
+    <link rel="stylesheet" href="{% static 'css/c3.css' %}">
+</head>
+<body>
+    <center>
+        <h1>Student Info:-</h1>
+        <table border="2px">
+		<tr>
+			<th>SRegNo</th>
+			<th>BatchCode</th>
+			<th>SName</th>
+			<th colspan="2">Course</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td rowspan="3">JMAJFFWEDA1</td>
+			<td>Lokesh</td>
+			<td>Html</td>
+			<td>Java</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Ashok</td>
+			<td>Html</td>
+			<td>Java</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Arun</td>
+			<td>Html</td>
+			<td>Java</td>
+		</tr>
+	</table>
+    </center>
+</body>
+</html>

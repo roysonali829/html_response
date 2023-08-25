@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML TABLES</title>
+    <link rel="stylesheet" href="{% static 'css/c14.css' %}">
+</head>
+<body>
+	<h1 align="center">Matrimonial</h1>
+	<table border="1px" align="center">
+		<tr>
+			<th>S.No</th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Salary</th>
+			<th>Images</th>
+		</tr>
+		<tr>
+			<td align="center">1</td>
+			<td>Madhu</td>
+			<td align="center">23</td>
+			<td>20000</td>
+			<td><img src="{% static 'images\20210201_112429.jpg' %}" width="200px" height="100px"></td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td>Sushree</td>
+			<td align="center">23</td>
+			<td>20000</td>
+			<td><img src="{% static 'images\20210201_112407.jpg' %}" width="200px" height="100px"></td>
+		</tr>
+		<tr>
+			<td align="center">3</td>
+			<td>Amrita</td>
+			<td align="center">23</td>
+			<td>20000</td>
+			<td><img src="{% static 'images\20210201_112322.jpg' %}" width="200px" height="100px"></td>
+		</tr>
+				<tr>
+			<td align="center">4</td>
+			<td>Bristi</td>
+			<td align="center">23</td>
+			<td>20000</td>
+			<td><img src="{% static 'images\IMG-20190512-WA0002.jpg' %}" width="200px" height="100px"></td>
+		</tr>		
+		<tr>
+			<td align="center">5</td>
+			<td>Sonali</td>
+			<td align="center">23</td>
+			<td>200000</td>
+			<td><img src="{% static 'images\IMG-20200115-WA0002.jpg' %}" width="200px" height="100px"></td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,73 @@
+h1{
+    color: aqua;
+}
+div
+{
+    box-shadow:0 0 10px black;
+    width: 200px;
+    height:200px;
+    margin:200px auto; 
+    position:relative;
+    color: white;
+}
+div:hover
+{
+    cursor:pointer;
+    transition:all 1s linear 0s;
+}
+div>img
+{
+    width:inherit;
+    height: inherit;
+}
+
+div>#a
+{
+    margin:0;
+    box-shadow:0 0 10px black;
+    position:relative;
+    transform: translateY(-200px);
+
+}
+div>#b
+{
+    margin: 0;
+    box-shadow:0 0 10px black;
+    position:relative;
+    transform: translateY(-200px);
+
+}
+div>#c
+{
+    margin: 0;
+    box-shadow:0 0 10px black;
+    position:relative;
+    transform: translateY(-200px);
+
+}
+div>#d
+{
+    margin: 0;
+
+    box-shadow:0 0 10px black;
+    position:relative;
+    transform: translateY(-200px);
+
+
+}
+div:hover #a
+{
+    transform:translateY(-380px);
+}
+div:hover #b
+{
+    transform:translate(180px,-20px);
+}
+div:hover>#c
+{
+    transform: translate(-180px,-20px);
+}
+div:hover>#d 
+{
+    transform: translate(-180px,-385px);
+}

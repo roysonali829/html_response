@@ -1,0 +1,30 @@
+*
+{
+	margin: 0px;
+}
+body
+{
+	margin: 0px;	
+	background-size: cover;
+}
+header
+{
+	color: white;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+header>nav>a
+{
+	padding: 20px;
+}
+nav>a:hover
+{
+	color: orange;
+}
+h1>i>span
+{
+	color: orange;
+	font-size: 6vh;
+}

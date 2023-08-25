@@ -1,0 +1,94 @@
+
+body
+{
+    background-color: #dae3e3;
+}
+div
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+div>span
+{
+    position: relative;
+    background-color: black;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 42px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px white;
+    animation: k 1s linear 1s infinite normal;
+}
+div>span:first-child
+{
+    background-color: coral;
+    animation-delay: 0.1s;
+}
+div>span:nth-child(2)
+{
+    background-color: lightgreen;
+    animation-delay: 0.2s;
+    top: 150px;
+}
+div>span:nth-child(3)
+{
+    background-color: #e2a0f2;
+    animation-delay: 0.3s;
+}
+div>span:nth-child(4)
+{
+    background-color: lightskyblue;
+    animation-delay: 0.4s;
+    top: 150px;
+}
+div>span:nth-child(5)
+{
+    background-color: cyan;
+    animation-delay: 0.5s;
+}
+div>span:nth-child(6)
+{
+    background-color: lightseagreen;
+    animation-delay: 0.6s;
+    top: 150px;
+}
+div>span:nth-child(7)
+{
+    background-color: #c95c55;
+    animation-delay: 0.7s;
+}
+div>span:nth-child(8)
+{
+    background-color: navy;
+    animation-delay: 0.8s;
+    top: 150px;
+}
+div>span:nth-child(9)
+{
+    background-color: #f02b4c;
+    animation-delay: 0.9s;
+}
+div>span:nth-child(10)
+{
+    background-color: rosybrown;
+    animation-delay: 0.10s;
+    top: 150px;
+}
+div>span:last-child
+{
+    background-color: blue;
+    animation-delay: 0.19;
+}
+@keyframes k
+{
+    0%,100%
+    {
+        transform: scale(0.3,0.3);
+    }
+    50%
+    {
+        transform: scale(3,3);
+    }
+}
